@@ -1247,8 +1247,9 @@ text-align: center;
     border-left:2px solid #56C5CE;
     height: 856px;
     left: 50%;
-    top: 126%;
+    top: 0;
 }
+
 .circle{
     background-color:#56C5CE;
     width:17px;
@@ -1318,6 +1319,49 @@ border:1px solid #1D1D1D
 .readmoredetails:hover{
 background-color: #4EC6E1;
 color:white;
+}
+.projectLineBox {
+    padding:12px;
+}
+.projectLineBox .icon{
+    width:25%;
+
+}
+.proTitle h4{
+font-size:16px;
+color:#222D39;
+opacity: 77%;
+margin-bottom:0;
+}
+.row.margintop{
+    margin-top:44px;
+    position: relative;
+}
+.proTitle span{
+    font-size:13px;
+    color:#9D9DA7;
+}
+.proTitle{
+    margin-left: 16px;
+}
+.rightSide{
+    padding-right:18px
+}
+.rightSide .firstBox{
+    margin-top: 144px;
+    
+}
+.leftSide{
+    padding-left:20px;
+}
+.LevelBox{
+    background-color: white;;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding:24px 30px;
+    margin-top:66px;
+    border-radius: 6px;;
+    width:400px;
 }
 /**************************************/
 @media(min-width:320px) and (max-width:767px){
