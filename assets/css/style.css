@@ -1061,7 +1061,7 @@ margin-bottom:35px;
       left:94px;
 
   }
-  .tbox .t{
+  .tbox .t,.investmentDetailsTable td .t{
     border: 1px solid white;
     border-radius: 50%;
     width: 11px;
@@ -1136,7 +1136,9 @@ padding:13px 20px;
 .productBoxFooter .Rating:last-child{
     margin-right: 0;
 }
-.D3{
+.D3,.investmentDetailsTable td.D3{
+    font-size:16px;
+    font-weight: 500;
    color: #C800C8
 }
 .pagination{
@@ -1167,6 +1169,108 @@ background-color:#4EC6E1;
 .paginationArrow:hover i{
     color:white;
 }
+.investmentDetailsPage{
+    padding-top:80px;
+    padding-bottom:100px;
+}
+.investmentDetailsPageBox .title h4{
+    font-size:32px;
+    color:#222D39;
+}
+.investmentDetailsPageBox .title span{
+    font-size:14px;
+    color:#959595;
+}
+.investmentDetailsPageBox .title{
+    margin-bottom:66px;
+}
+.investmentDetailImg{
+    width:100%;
+    border-radius: 6px;
+    overflow: hidden;
+    height:362px;
+    margin-bottom: 45px;
+}
+.investmentDetailsPageBox h5{
+font-size:24px;
+font-weight: 500;
+color:#222D39;;
+}
+.investmentDetailsTable {
+    margin-bottom:50px;
+}
+.investmentDetailsTable td{
+    font-size:20px;
+    color:#959595;
+    border:0;
+}
+
+.investmentDetailsTable tr{
+    padding:20px;
+    border:0;
+}
+.investmentDetailsTable td .t{
+    color:#959595;
+    border:1px solid #959595;
+
+}
+.investmentDetailsTable tr:nth-child(odd){
+    background-color:#F6F6F8
+}
+.investmentDetailsTable tr:nth-child(even){
+    background-color:#fefefe
+}
+.moreDesc{
+    font-size:24;
+    margin-bottom:30px;
+    color:#222D39;
+    font-weight: 500;;
+}
+.investmentDetailsPageBox p{
+    font-size:14px;
+    color:#222D39;
+    margin-bottom:85px;
+}
+.ProjectTimeLine{
+    margin-top:55px;
+}
+.ProjectTimeLine h2{
+font-size:32px;
+color:#222D39;
+margin-bottom:30px;
+text-align: center;
+}
+.projectLine{
+    position: absolute;
+    margin-top:30px;
+    width:2px;
+    border-left:2px solid #56C5CE;
+    height: 856px;
+    left: 50%;
+    top: 126%;
+}
+.circle{
+    background-color:#56C5CE;
+    width:17px;
+    height:17px;
+    border:2px solid white;
+    position: absolute;
+    top: -17px;
+    left: -9px;
+    border-radius: 50%;;
+    box-shadow:  0 3px 6px rgba(0, 0, 0, .16);
+}
+.circle.circle1{
+    top:auto;
+    bottom: -17px;
+ 
+}
+.projectLineBox{
+    width:154px;
+    border-radius: 3px;
+    border:1px solid #ECECEC;
+}
+
 /**************************************/
 @media(min-width:320px) and (max-width:767px){
     .navbar{
@@ -1324,6 +1428,7 @@ footer .col-md-6{
         right: 23%;
         top: 72%;
 }
+
 @media(min-width:768px)and (max-width:1024px){
     .navbar-expand-lg .navbar-collapse {
         display: flex!important;
