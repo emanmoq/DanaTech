@@ -1061,7 +1061,7 @@ margin-bottom:35px;
       left:94px;
 
   }
-  .tbox .t,.investmentDetailsTable td .t{
+  .tbox .t,.investmentDetailsTable td .t,.Rating .t{
     border: 1px solid white;
     border-radius: 50%;
     width: 11px;
@@ -1270,7 +1270,55 @@ text-align: center;
     border-radius: 3px;
     border:1px solid #ECECEC;
 }
+.modal.productModal{
+top:22%;
+}
+#productModal .modal-dialog{
+width:682px;
+height:605px;
+}
+#productModal .modal-dialog .modal-body{
+    padding:0;
+}#productModal .modal-dialog .modal-body .card.productBox{
+    margin-bottom:0;
 
+}
+#productModal .modal-dialog .modal-body .card.productBox .card-img-top{
+    height:60%;
+}
+#productModal .modal-dialog .modal-body .card.productBox .productBoxFooter{
+    margin-top:0;
+    padding-top:20px;
+    border-top:1px solid #ECECEC;
+}
+#productModal .modal-dialog .modal-body .card.productBox  .productBoxFooter .rating{
+    padding:0 30px; 
+}
+#productModal .modal-dialog .modal-body .card.productBox  .card-body{
+    padding:0;
+    padding-top:14px;
+}
+.modalCon{
+    padding-left:30px;
+    padding-right:10px;
+}
+.Rating .t{
+border:1px solid #1D1D1D
+}
+#productModal .verticalLine{
+    margin: 0 -7px;
+}
+.readmoredetails{
+    background-color: #F1F1F1;
+    width:125px;
+    border-radius: 3px;;
+    font-size:14px;
+    font-weight: 300;;
+}
+.readmoredetails:hover{
+background-color: #4EC6E1;
+color:white;
+}
 /**************************************/
 @media(min-width:320px) and (max-width:767px){
     .navbar{
@@ -1428,7 +1476,9 @@ footer .col-md-6{
         right: 23%;
         top: 72%;
 }
-
+#productModal .modal-dialog{
+width:90%;;
+}
 @media(min-width:768px)and (max-width:1024px){
     .navbar-expand-lg .navbar-collapse {
         display: flex!important;
