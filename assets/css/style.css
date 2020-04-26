@@ -1573,7 +1573,7 @@ margin-left: 0;
     height:auto;
     margin-left: 0;
     margin-top:5px;;
-}
+}}
 @media(min-width:768px)and (max-width:1024px){
     .navbar-expand-lg .navbar-collapse {
         display: flex!important;
@@ -1589,9 +1589,47 @@ margin-left: 0;
     margin:0;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
- padding: 6px;}
+        padding: 5px;
+        font-size: 13px;}
     .loginLink{
         padding: 6px;
         font-size:14px;
     }
+    .FirstSlider{
+        width:44%;
+    }
+    .loginLink{
+        padding: 0px;
+        font-size: 12px;
+        width: 68px;
+        margin-right: 5px;;
+    }
+    .contactInfo span, .contactInfo a{
+        margin-right: 10px;;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 4%;
+        bottom: 20px;
+        left: 9%;}
+       .capCont{
+           width:55%
+       }
+       #Consortium .col-lg-2{
+        flex: 0 0 50%;
+        max-width: 50%
+       }
+  .ConsortiumBox{
+      margin-bottom:10px;
+  }
+  .tabs .col-md-2 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.CurrencyBox{
+    margin-bottom:10px;
+}
+.convertSide{
+    margin-left:5px;
+}
 }
