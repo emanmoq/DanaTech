@@ -614,16 +614,23 @@
   </section>
   <section id="chartSection">
     <div class="container">
-      <div class="col-md-6">
-        <h4 class="chartTitle">Pair diversification
-          with performance.
-        </h4>
-        <p>Regardless of your net worth, you can now benefit from real estate’s unique potential for generating
-          consistent cash flow and long-term appreciation. This is a level of real estate investing that was previously
-          reserved for only the wealthiest investors and institutions.</p>
-        <a href="#">See More></a>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="chartTitle">Pair diversification
+            with performance.
+          </h4>
+          <p>Regardless of your net worth, you can now benefit from real estate’s unique potential for generating
+            consistent cash flow and long-term appreciation. This is a level of real estate investing that was
+            previously
+            reserved for only the wealthiest investors and institutions.</p>
+          <a href="#">See More></a>
+        </div>
+        <div class="col-md-6">
+          <div class="diagram">
+            <img src="assets/images/diagram.png" alt="">
+          </div>
+        </div>
       </div>
-      <div class="col-md-6"></div>
     </div>
   </section>
   <section id="join">
@@ -865,7 +872,9 @@
   <script type="text/javascript" src="assets/js/jquery.selectric.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap-slider.js"></script>
-
+  <!--  <script type="text/javascript" src="assets/js/chart.min.js"></script>
+  <script type="text/javascript" src="assets/js/utils.js"></script>
+-->
 
   <script>
     $('.select').selectric({
@@ -880,6 +889,96 @@
     $("#ex3").slider({});
 
   </script>
+  <!--
+    <script>
+    var config = {
+      type: 'line',
+      data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        datasets: [{
+          label: 'Unfilled',
+          fill: false,
+          backgroundColor: window.chartColors.blue,
+          borderColor: window.chartColors.blue,
+          data: [
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor()
+          ],
+        }, {
+          label: 'Dashed',
+          fill: false,
+          backgroundColor: window.chartColors.green,
+          borderColor: window.chartColors.green,
+          borderDash: [5, 5],
+          data: [
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor()
+          ],
+        }, {
+          label: 'Filled',
+          backgroundColor: window.chartColors.red,
+          borderColor: window.chartColors.red,
+          data: [
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor(),
+            randomScalingFactor()
+          ],
+          fill: true,
+        }]
+      },
+      options: {
+        responsive: true,
+        title: {
+          display: true,
+          text: 'Chart.js Line Chart'
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+        },
+        hover: {
+          mode: 'nearest',
+          intersect: true
+        },
+        scales: {
+          xAxes: [{
+            display: true,
+            scaleLabel: {
+              display: true,
+              labelString: 'Month'
+            }
+          }],
+          yAxes: [{
+            display: true,
+            scaleLabel: {
+              display: true,
+              labelString: 'Value'
+            }
+          }]
+        }
+      }
+    };
+
+    window.onload = function () {
+      var ctx = document.getElementById('canvas').getContext('2d');
+      window.myLine = new Chart(ctx, config);
+    };
+  </script>
+-->
 </body>
 
 </html>
