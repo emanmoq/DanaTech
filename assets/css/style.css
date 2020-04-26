@@ -1034,6 +1034,15 @@ border-radius: 0;;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 height:395px;
 margin-bottom:35px;
+cursor: pointer;
+transition: all .5s;;
+  }
+  .card.productBox:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    transition: all .5s;;
+  }
+  .card.productBox:hover .card-title{
+color:#4EC6E1
   }
   .card.productBox .card-img-top{
       height:45%;
@@ -1275,6 +1284,7 @@ text-align: center;
 top:22%;
 }
 #productModal .modal-dialog{
+    top:25%;
 width:682px;
 height:605px;
 }
