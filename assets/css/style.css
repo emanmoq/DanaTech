@@ -106,7 +106,7 @@ left: -17px !important;
     text-transform: capitalize;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-    color:black;
+    color:#171D70
 }
 .scrollNav {
     top: 0 !important ;
@@ -120,10 +120,7 @@ left: -17px !important;
     height:90px;
 }
 
-.nav-link.active:before , .nav-link:hover:before{
-    width:30%;
-    transition: .5s ease-in-out;
-}
+
 .loginLink{
     width:100px;
     height:50px;
@@ -413,6 +410,25 @@ height: 50px !important;
 .aboutimg{
     margin-top:60px;
     margin-bottom:106px;
+    position: relative;
+}
+.planet{
+    position: absolute;
+    width: 80px;
+    left: 42%;
+    top: 25%;
+
+}
+
+#Path_699{
+    animation: move1 5s  ease-in-out 2s infinite alternate ;
+transition: all .9s ease 5s;
+transform-origin: 50% 50%;
+
+}
+.data{
+    width:90px;
+    position: absolute;
 }
 .ourIcon{
     background-color: #282E6A;
@@ -422,7 +438,7 @@ height: 50px !important;
     padding:15px;
     margin:0 auto;
     margin-bottom: 35px;
- 
+
 }
 .ourIcon img{
     box-shadow: 0 2px 42px #171D70;
@@ -481,6 +497,7 @@ padding-top:112px;
     margin-bottom:60px;
     height:365px;
     overflow: hidden;
+    cursor: pointer;
 }
 .investmentBox .card-img-top{
     width:100%;
@@ -1405,6 +1422,12 @@ color:#222D39;
 }
 .smallImg:last-child{
     margin-bottom:0
+}
+@keyframes move1{
+
+
+ 
+    to{transform:rotate(360deg) }
 }
 /**************************************/
 @media(min-width:320px) and (max-width:767px){
