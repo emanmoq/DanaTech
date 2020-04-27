@@ -1,7 +1,7 @@
 jQuery(function ($) {
 
 
-
+  new WOW().init();
   $(window).scroll(function () {
     scrollTop = $(window).scrollTop();
 
@@ -16,8 +16,13 @@ jQuery(function ($) {
 
 
   });
+  $('.aboutLink .nav-link .dropdown-item').on('click', function () {
+    
+      $('html, body').animate({ scrollTop: $(this.hash).offset().top - 250 }, 1000);
  
-
+    }
+  );
+  
 
 
   $(".close").click(function () {
