@@ -1439,11 +1439,11 @@ color:#222D39;
 .smallImg:last-child{
     margin-bottom:0
 }
-#ChairmanMessage ,#OrganizationChart,#ManagmentTeam{
+#ChairmanMessage ,#OrganizationChart,#ManagmentTeam,#partner{
     padding:50px 0;
 }
 
-#ChairmanMessage .sectionTitle,#OrganizationChart .sectionTitle,#ManagmentTeam .sectionTitle{
+#ChairmanMessage .sectionTitle,#OrganizationChart .sectionTitle,#ManagmentTeam .sectionTitle,#partner .sectionTitle{
     margin-bottom:50px;
     
 }
@@ -1513,10 +1513,22 @@ ul.memberteamMenu li{
     margin-top:50px;
 }
 @keyframes move1{
-
-
  
     to{transform:rotate(360deg) }
+}
+.partnerImg{
+    width:200px;
+    margin-right:20px;
+    height:120px;
+    display: inline-block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.partnerImg:last-child{
+    margin-right:0;
+}
+.partners{
+    margin:0 auto;
+    text-align: center;
 }
 /**************************************/
 @media(min-width:320px) and (max-width:767px){
