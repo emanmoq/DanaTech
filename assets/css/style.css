@@ -97,7 +97,7 @@ left: -17px !important;
 .nav-link{
     text-transform: capitalize;
 }
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link,.navbar-expand-lg .dropdown-menu  a.dropdown-item {
     font-size: 14px;
     color:#1E1713;
     padding:11px;
@@ -105,8 +105,18 @@ left: -17px !important;
     font-weight: 300;
     text-transform: capitalize;
 }
-.navbar-expand-lg .navbar-nav .nav-link:hover{
+..navbar-expand-lg .dropdown-toggle::after{
+    font-size: 14px;
+    color:#1E1713;
+    opacity: .9;
+    margin-left: 0.355em;
+    vertical-align: middle;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover,.dropdown-menu  a.dropdown-item:hover,.navbar-expand-lg .nav-item.dropdown:hover .dropdown-toggle::after{
     color:#171D70
+}
+.navbar-expand-lg .navbar-nav .nav-link .dropdown-menu{
+    top:85%;
 }
 .scrollNav {
     top: 0 !important ;
@@ -120,6 +130,9 @@ left: -17px !important;
     height:90px;
 }
 
+.nav-item.aboutLink:hover .dropdown-menu{
+    display: block;
+}
 
 .loginLink{
     width:100px;
@@ -1364,6 +1377,9 @@ margin-bottom:0;
     margin-top:44px;
     position: relative;
 }
+.col-md-12.margintop{
+    margin:50px 0;
+}
 .proTitle span{
     font-size:13px;
     color:#9D9DA7;
@@ -1422,6 +1438,76 @@ color:#222D39;
 }
 .smallImg:last-child{
     margin-bottom:0
+}
+#ChairmanMessage ,#OrganizationChart,#ManagmentTeam{
+    padding:50px 0;
+}
+
+#ChairmanMessage .sectionTitle,#OrganizationChart .sectionTitle,#ManagmentTeam .sectionTitle{
+    margin-bottom:50px;
+    
+}
+.ChairmanMessageText p{
+    font-size:16px;
+    color:#959595;
+    color:#282E6A
+}
+.ChairmanMessageText h4{
+    font-size:18px;
+    font-weight: 500;;
+    display: inline-block;
+    color:#282E6A;
+    margin-right:20px;
+}
+.ChairmanMessageText span{
+    font-size:16px;
+    color:#959595;
+    color:#282E6A 
+}
+.teamMemberImg{
+    width:70%;
+    margin:0 auto;
+    margin-bottom:20px;
+
+}
+.teamMemberInfo{
+    text-align: center;
+}
+.teamMemberInfo h4{
+    font-size:22px;
+    color:#282E6A;
+}
+.teamMemberInfo span{
+    font-size: 16px;
+    color:#6F6F6F;
+}
+.teamMemberDesc{
+    margin-top:20px;
+}
+.teamMemberDesc p{
+    line-height: 2;
+    font-size:18px;
+    color:#282E6A;
+    margin-left:20px;
+}
+.teamMemberInfo .dropdown-divider{
+    margin:30px;
+    border-top: 1px solid #4EC6E1;
+
+}
+ul.memberteamMenu{
+    margin-top:20px;
+    list-style-type: lower-alpha;
+    margin-left:20px;
+}
+ul.memberteamMenu li{
+    list-style-type: lower-alpha;
+    margin-top:10px;
+    font-size:16px;
+    color:#282E6A
+}
+.row.paddinRow{
+    padding:20px 0;
 }
 @keyframes move1{
 
