@@ -1,7 +1,6 @@
 jQuery(function ($) {
 
 
-  new WOW().init();
   $(window).scroll(function () {
     scrollTop = $(window).scrollTop();
 
