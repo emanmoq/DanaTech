@@ -1313,29 +1313,35 @@ text-align: center;
 .modal.productModal{
 top:22%;
 }
-#productModal .modal-dialog{
+#productModal .modal-dialog,
+ #productModal2 .modal-dialog{
     top:25%;
 width:682px;
 height:605px;
 }
-#productModal .modal-dialog .modal-body{
+#productModal .modal-dialog .modal-body, #productModal2 .modal-dialog .modal-body{
     padding:0;
-}#productModal .modal-dialog .modal-body .card.productBox{
+}#productModal .modal-dialog .modal-body .card.productBox,
+ #productModal2 .modal-dialog .modal-body .card.productBox{
     margin-bottom:0;
 
 }
-#productModal .modal-dialog .modal-body .card.productBox .card-img-top{
+#productModal .modal-dialog .modal-body .card.productBox .card-img-top,
+ #productModal2 .modal-dialog .modal-body .card.productBox .card-img-top{
     height:60%;
 }
-#productModal .modal-dialog .modal-body .card.productBox .productBoxFooter{
+#productModal .modal-dialog .modal-body .card.productBox .productBoxFooter,
+ #productModal2 .modal-dialog .modal-body .card.productBox .productBoxFooter{
     margin-top:0;
     padding-top:20px;
     border-top:1px solid #ECECEC;
 }
-#productModal .modal-dialog .modal-body .card.productBox  .productBoxFooter .rating{
+#productModal .modal-dialog .modal-body .card.productBox  .productBoxFooter .rating,
+ #productModal2 .modal-dialog .modal-body .card.productBox .productBoxFooter .rating{
     padding:0 30px; 
 }
-#productModal .modal-dialog .modal-body .card.productBox  .card-body{
+#productModal .modal-dialog .modal-body .card.productBox  .card-body,
+ #productModal2 .modal-dialog .modal-body .card.productBox  .card-body{
     padding:0;
     padding-top:14px;
 }
@@ -1346,7 +1352,7 @@ height:605px;
 .Rating .t{
 border:1px solid #1D1D1D
 }
-#productModal .verticalLine{
+#productModal .verticalLine, #productModal2 .verticalLine{
     margin: 0 -7px;
 }
 .readmoredetails{
@@ -1687,7 +1693,7 @@ footer .col-md-6{
         right: 23%;
         top: 72%;
 }
-#productModal .modal-dialog{
+#productModal .modal-dialog, #productModal2 .modal-dialog{
 width:90%;;
 }
 .LevelBox {
