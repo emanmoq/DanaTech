@@ -1523,11 +1523,27 @@ ul.memberteamMenu li{
     to{transform:rotate(360deg) }
 }
 .partnerImg{
-    width:200px;
+    width:30%;
     margin-right:20px;
     height:120px;
     display: inline-block;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
+    margin-top:50px;
+    padding:30px 10px;
+}
+.partnerImg.bahrain img{
+    width:70%;
+    margin:0 auto;
+}
+.partnerImg.aura img{
+    width:70%;
+}
+.partnerImg img{
+    vertical-align: middle;
+}
+.partnerImg.bahrain{
+    padding:0;
 }
 .partnerImg:last-child{
     margin-right:0;
@@ -1535,6 +1551,41 @@ ul.memberteamMenu li{
 .partners{
     margin:0 auto;
     text-align: center;
+}
+.managerImg{
+    width:70%;
+    margin:0 auto;
+    overflow: hidden;
+    border:3px solid #4EC6E1;
+    border-radius: 5px;
+    margin-bottom:20px;
+}
+.managerTitle{
+    font-size: 22px;
+    font-weight: 500;
+    color:#4EC6E1
+}
+#companyBoard{
+    padding:50px 0;
+}
+#companyBoard .mainTitle{
+    margin-bottom:50px;
+}
+
+.managerInfo p{
+    color:#6F6F6F;
+}
+.managerBox {
+    padding:20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.managerBox:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.partnerImg1 {
+    width:100%;
+    margin-bottom:20px;
 }
 /**************************************/
 @media(min-width:320px) and (max-width:767px){
