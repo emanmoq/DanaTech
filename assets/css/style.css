@@ -1040,8 +1040,52 @@ margin-bottom:0;
       margin-top:50px;
       margin-bottom:35px;
   }
+  .real-estateText{
+      margin:20px 0;
+      color:#4EC6E1;
+      font-size:22px;
+      font-weight: 500;
+  }
   .marketPageTabs.nav-tabs .nav-link i{
       color:#959595;
+  }
+  .estateBox{
+      border:2px solid #4EC6E1;
+      padding:20px;
+      margin:20px 0;
+  }
+  .estateTable{
+      width:100%;
+
+  }
+  .estateTable th{
+      background-color: #4EC6E1;
+      color:white;
+      text-align: center;
+      padding:20px 0;
+  }
+
+  .numSec{
+      font-size:34px;
+      font-weight: 500;
+      text-align: center;
+      color:#4EC6E1
+  }
+  .numSec .num{
+    font-size:34px;
+    font-weight: 500;
+    text-align: center;
+    color:#4EC6E1
+  }
+  .estateTable td{
+      text-align: center;
+      border:1px solid #4EC6E1;
+      width: 50%;;
+  }
+  .tabletxt{
+      font-size:22px;
+      color:#4EC6E1;
+      margin-top:10px;
   }
   .marketPageTabs.nav-tabs .nav-link{
       border:0;
