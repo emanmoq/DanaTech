@@ -1660,6 +1660,12 @@ ul.memberteamMenu li{
     color:#4EC6E1;
     display: block;
 }
+.renImage{
+    width:400px;
+    margin:20px auto;
+}
+.ren2table td:first-child{width:30%; }
+
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {
