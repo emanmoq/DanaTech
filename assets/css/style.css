@@ -1664,8 +1664,19 @@ ul.memberteamMenu li{
     width:400px;
     margin:20px auto;
 }
+.ren2table {
+    width:100%;
+}
 .ren2table td:first-child{width:30%; }
+.ren2table{
+    color:#707070;
+    font-size:17px;
 
+}
+.ren2table td{
+    border-top:1px solid #4EC6E1;
+    padding:15px 0;
+}
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {
