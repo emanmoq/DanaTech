@@ -1635,7 +1635,17 @@ ul.memberteamMenu li{
     margin-bottom:20px;
 }
 /**************************************/
+@media(min-width:1024px)and (max-width:1600px){
+    .table-responsive {
+
+        overflow: inherit !important;
+}
 @media(min-width:320px) and (max-width:767px){
+    .productImg{
+        width:100%;
+    }
+    .productDesc h4 {
+        font-size: 24px;}
     .navbar{
         padding:10px;}
     .nav-link.active:before{
