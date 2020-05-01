@@ -1081,6 +1081,9 @@ margin-bottom:0;
       text-align: center;
       border:1px solid #4EC6E1;
       width: 50%;;
+  }.estateLogo{
+      width:200px;
+      margin:20px auto;
   }
   .tabletxt{
       font-size:22px;
