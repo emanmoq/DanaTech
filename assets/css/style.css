@@ -1634,6 +1634,32 @@ ul.memberteamMenu li{
     width:100%;
     margin-bottom:20px;
 }
+.renewableVideo video{
+    width:100%;
+}
+.renewableRow{
+    border:2px solid #4EC6E1;
+    margin:20px 0;
+    padding:20px 0;
+}
+
+.renewableBoxTitle{
+    text-align: center;
+    font-size: 25px;
+    color:#4EC6E1;
+}
+.renewableBox p{
+    color:#707070;
+    font-size:18px;
+    line-height: 1.5;
+}
+.videoTxt{
+    text-align: center;
+    font-size: 16px;
+    margin:15px 0;
+    color:#4EC6E1;
+    display: block;
+}
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {
