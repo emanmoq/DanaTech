@@ -1677,6 +1677,13 @@ ul.memberteamMenu li{
     border-top:1px solid #4EC6E1;
     padding:15px 0;
 }
+.tesllaCars{
+    width:80%;
+    margin:0 auto;
+    border:2px solid #4EC6E1;
+    border-radius: 4px;
+    overflow: hidden;;
+}
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {
