@@ -1684,6 +1684,278 @@ ul.memberteamMenu li{
     border-radius: 4px;
     overflow: hidden;;
 }
+.cryptoicon{
+    width:60%;
+    margin:0 auto;
+    margin-bottom:20px;
+    height:150px;
+    
+}
+.cryptoTime{
+    font-size:16px;
+    color:#6F6F6F;
+}
+.cryptoTxt{
+    color:#4EC6E1;
+    font-size:18px;
+}
+.hexChange{
+    padding:100px;
+}
+.hexChange .sectionTitle{
+    margin-bottom:50px;
+}
+.cryptoLogo{
+    width:200px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.HomePageLink{
+    margin:0 auto;
+    margin-top:50px;
+    display: block;
+    width:150px;
+    border:1px solid #4EC6E1;
+    color:#4EC6E1;
+
+}
+.HomePageLink:hover{
+    background-image:linear-gradient(45deg ,#31398B ,#28EFEF) ;
+color:white;
+}
+.TwinkleHeader{
+    margin:20px 0;
+    text-align: center;
+
+}
+.TwinkleHeader span{
+    font-size:16px;
+    color:#707070;
+margin-right:50px;
+}
+.TwinkleHeader span:last-child{
+    margin-right:0;
+}
+.TwinkleHeader span span{
+    color:#4EC6E1
+}
+.twinkleBox{
+    margin:20px 0;
+}
+.Yem{
+    display: inline-block;
+    margin-right:70px;
+    text-align: center;
+}
+.twinkleBox p{font-size: 16px;
+    color:#707070;
+}
+.twinkleBoxFooter{
+    margin-top:50px;
+    text-align: center;
+}
+.Yem h5{
+    font-size:18px;
+    color:#4EC6E1
+}
+.twinkleBoxFooter .Yem:last-child{
+    margin-right: 0;;
+}
+.hexChange .horizLine{
+    margin-bottom:50px;
+}
+.eurisImg{
+    width:100%;
+}
+.logosec span{
+    font-size:30px;
+    color:#282E6A;
+    font-weight: bold;
+
+}
+.logosec .is{
+color:#4EC6E1
+}
+.logDetails h3{
+    color:#4EC6E1;
+    margin-bottom:20px;
+    
+}
+.logDetails{
+    display: inline-block;
+    width:30%;
+    margin-top:150px;
+    position: relative;
+}
+.logDetails h3{
+    text-align: center;
+    
+}
+.logDetails h4{
+    color:White;
+    background-color:#4EC6E1;
+ 
+    height:80px;
+    line-height: 80px;;
+    
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+}
+.logDetails:before{
+    position: absolute;
+    color:#4EC6E1;
+    font-family:LineIcons;
+    FONT-SIZE: 94PX;
+    HEIGHT: 150PX;
+    display: block;
+    transform: rotate(54deg);
+    top: -158px;
+}
+.logDetails.leftLogo::before{
+  content:"\ea47";
+  left: 258px;
+}
+.logDetails.rightLogo::before{
+    content:"\ea47";
+    right: 258px;
+    transform: rotate(-54deg);
+}
+.EuropeanBox{
+    width:100%;
+}
+.eurisbank{
+    background-color:#4EC6E1;
+    width: 166px;
+    height: 166px;
+    line-height: 132px;
+    border:15px solid rgba(255,255,255,.3);
+    text-align: center;
+    font-size:25px;
+    color:white;
+    border-radius: 50%;;
+}
+.EuropeanBox{
+    margin:100px 0;
+
+}
+.eurBorder{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #4EC6E1;
+    border-radius: 50%;
+    padding: 16px;
+}
+.smallicon{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    background-color: #4EC6E1;
+    color:white;
+    float:left;
+    display: inline-block;
+}
+.smallEur{
+    background-color: rgba(0,0,0,.05);
+    width:70%;
+    HEIGHT:80PX;
+    border-radius: 45px;
+    margin-bottom:30px;
+
+}
+.first.smallEur{
+    margin-top: -54px;
+    margin-left: -40px;
+  
+}
+.smallTxt{
+    display: inline-block;
+   color:#222D39;
+    margin-left:50px;
+    line-height: 90px;
+    
+}
+.smallEur.last{
+    margin-left: -40px;
+}
+.leftsideSec,.rightsideSec{
+    display: inline-block;
+    width:27%;
+    float:left;
+}
+.rightsideSec{
+    width:70%;
+}
+.IBYEM{
+    position: relative;
+    padding:50px 0;
+}
+.IBYEM:before{
+    content: "";
+    position:absolute;
+    opacity:.3;
+    background-image: url("../images/coins.jpg");
+    width:100%;
+    height:100%;
+    background-size:cover;
+    z-index: 0;
+    top:0;
+    left:0;
+}
+.IBYEM h4,.agreemntTerms h4{
+    font-size:25px;
+    color:#4EC6E1;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+.IBYEM h5{
+    font-size:20px;
+    color:#747474;
+}
+.IBYEM p{
+font-size:18px;
+color:#747474;
+margin:20px 0;
+}
+.bankDesc li{
+    list-style-type: square;
+    color:#6F6F6F;
+    font-size:18px;
+    margin:10px 0;
+
+
+}
+.bankDesc li span{
+    color:#4EC6E1;
+    font-weight: bold;
+}
+.agreemntTerms h4{
+    text-align: center;
+}
+.agreemntTerms li {
+    list-style-type: square;
+    color:#747474;
+    margin:20px 0;
+    font-size:18px;
+}
+.agreemntTerms{
+    padding:20px 0;
+    position: relative;
+}
+.coinsImg{
+    float:right;
+    width:30%;
+    border-radius: 40%;
+    margin-right:-50%;
+}
+.pen{
+    width:50%;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    top:0;
+    height: 100%;
+    overflow: hidden;
+}
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {
