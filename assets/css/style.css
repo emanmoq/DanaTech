@@ -1700,7 +1700,7 @@ ul.memberteamMenu li{
     font-size:18px;
 }
 .hexChange{
-    padding:100px;
+    padding:100px 0;
 }
 .hexChange .sectionTitle{
     margin-bottom:50px;
@@ -1961,8 +1961,34 @@ margin:20px 0;
     .table-responsive {
 
         overflow: inherit !important;
-}
+}}
 @media(min-width:320px) and (max-width:767px){
+    .pen{display: none;}
+
+    .agreemntTerms ul{padding:20px}
+    .logDetails {
+        width:40%;
+    }
+    .logDetails.leftLogo::before{
+        left: 37;
+    }
+    .leftsideSec, .rightsideSec{
+        width:100% ;
+
+    }
+    .bankDesc ul{padding:20px;}
+    .smallEur{
+        width:100%;
+    }
+    .smallEur.last{
+        margin-left: 0;;
+    }
+    .first.smallEur{
+        margin-top:20px;
+        margin-left: 0;;
+    }
+    .logDetails.rightLogo::before {
+        right: 37px;}
     .productImg{
         width:100%;
     }
