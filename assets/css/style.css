@@ -1956,6 +1956,22 @@ margin:20px 0;
     height: 100%;
     overflow: hidden;
 }
+.BuildingBlocks{
+    padding:50px 0;
+}
+.blocksSec h4{
+    font-size:18px;
+    color:#707070;
+    margin-top:20px;
+
+}
+.blocksSec h4 span{
+    color:#4EC6E1;
+ 
+}
+.blocksSec h4 span i{
+    margin-right:20px;
+}
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {
