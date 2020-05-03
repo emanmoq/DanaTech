@@ -105,7 +105,7 @@ left: -17px !important;
     font-weight: 300;
     text-transform: capitalize;
 }
-..navbar-expand-lg .dropdown-toggle::after{
+.navbar-expand-lg .dropdown-toggle::after{
     font-size: 14px;
     color:#1E1713;
     opacity: .9;
