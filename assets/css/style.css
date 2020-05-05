@@ -1975,6 +1975,142 @@ margin:20px 0;
 .productBox img{
     height:100%;
 }
+.shopper{
+    display: inline-block;
+    width:45%;
+}
+.tabletxt.shopperText{
+    width:45%;
+    display: inline-block;
+}
+.shopLogo{
+    margin:20px auto;
+    width:400px;
+}
+.retailCar,.electricSlider{
+    display: inline-block;
+    float: left;
+    width:45%;
+    margin:10px;
+}
+.TourismBox1{
+    background-image:url("../images/Picture1.jpg");
+    width:100%;
+    background-size:cover;
+    padding:20px;
+
+}
+.TourismInner{
+    background:rgba(255, 255, 255, 0.4);
+    padding:20px;
+}
+.TourismInner p{
+    color:#707070;
+    font-size:16px;
+}
+.TourismInner p.boldText{
+    font-size:16px;
+    color:#4EC6E1;
+    font-weight: bold;
+    margin:20px 0;
+}
+.PricingBox{
+    border:1px solid #4EC6E1;
+    border-radius: 4px;
+    height:550px
+
+}
+.pricingHeader{
+    background-color:#4EC6E1;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+    font-size:20px;
+    font-weight: 500;;
+}
+.pricingCont{
+    padding:20px;
+   
+}
+.pricingCont h4{
+    font-size:18px;
+    font-weight: bold;
+    color:#4EC6E1;
+    margin:15px 0;
+}
+.pricingCont p{
+    
+    font-size:18px;
+    color:#707070;
+    line-height: 1.5;
+}
+.TourismBox2{
+    background-image: url("../images/Picture5.jpg");
+    background-size: cover;
+    padding:20px;
+}
+.TourismInner h4{
+font-size:20px;
+font-weight: bold;
+color:#2b474d;
+margin-bottom:20px;
+}
+.starsTxt i{
+    color:gold;
+    display: inline-block;
+    margin: 0 5px;
+}
+.starsTxt{
+    color:#222D39
+}
+.TourismInner p.boldStar{
+    font-weight: 500;
+    font-size:15px;
+}
+.TourismBox3{
+    background-image: url("../images/Picture6.jpg");
+    background-size: cover;
+    padding:20px;
+}
+.tradeCars,.oilImg{
+    margin-bottom:20px;
+}
+.oilDetails h4{
+    font-size: 20px;
+}
+.oilDetails p{
+    font-size:18px;
+}
+.tradeLogo{
+    margin:20 auto;
+    width:200px;
+}
+.tradeDetails p span{
+    color:#4EC6E1
+}
+.tradeSteps{
+    margin:20px auto;
+}
+.carImg{
+    width:100%;
+    border:1px solid #4EC6E1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.goldImg{
+    border-radius: 5px;
+    overflow:hidden;
+}
+.pharmaLogo{
+    width:300px;
+    margin:50px auto;
+    background-color: #56C5CE;
+    border-radius: 4px;
+    overflow:hidden;
+}
+.marketPage.Health{
+    padding-top: 0;;
+}
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
     .table-responsive {

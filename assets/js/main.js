@@ -22,7 +22,46 @@ jQuery(function ($) {
     }
   );
   
-
+  $('.retailCar').owlCarousel({
+    autoplay:3000,
+    loop:true,
+    autoplayHoverPause:true,
+    margin:20,
+  nav:false,
+    dots:false,
+    
+  responsive:{
+  0:{
+    items:1
+  },
+  600:{
+    items:1
+  },
+  1000:{
+    items:1
+  }
+  }
+  }); 
+   $('.electricSlider').owlCarousel({
+    autoplay:1000,
+    autoplayHoverPause:true,
+    loop:true,
+    margin:20,
+  nav:false,
+    dots:false,
+    
+  responsive:{
+  0:{
+    items:1
+  },
+  600:{
+    items:1
+  },
+  1000:{
+    items:1
+  }
+  }
+  });
 
   $(".close").click(function () {
     $('.navbar-collapse').collapse("hide");
