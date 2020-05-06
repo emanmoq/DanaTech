@@ -1937,6 +1937,9 @@ margin:20px 0;
     margin:20px 0;
     font-size:18px;
 }
+.agreemntTerms li span{
+    color:#4EC6E1;
+}
 .agreemntTerms{
     padding:20px 0;
     position: relative;
@@ -2110,6 +2113,67 @@ margin-bottom:20px;
 }
 .marketPage.Health{
     padding-top: 0;;
+}
+.statredBtn{
+    background-color: white;
+    color:#4EC6E1;
+    border:1px solid #707070;
+    width:200px;
+    text-align: center;
+    padding:10px 0;
+    font-size:16px;
+    transition: all .5s;
+}
+.statredBtn:hover{
+
+    transition: all .5s;
+    background-color:#4EC6E1;
+    color:white;
+}
+
+.PalmexImg{
+    width:150px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.card-body.PalmexDesc h4{
+    font-size: 16px;
+    color:#4EC6E1;
+
+}
+.card-body.PalmexDesc p{
+    font-size:14px;
+    color:#707070
+}
+.card.investmentBox.PalmexBox{
+    height:500px;
+}
+.card.investmentBox.PalmexBox .card-body{
+padding-top:0;
+padding-bottom:20px;
+}
+.ExampleTable thead{
+    border-radius: 5px;;
+}
+.ExampleTable {
+border-radius: 5px;;
+    margin-top:50px;
+    border:.5px solid #707070
+}
+.ExampleTable thead th{
+    color:#4EC6E1;
+
+
+}
+.Examples{
+    margin-top:20px;
+}
+tbody td h4{
+    background-color: #4EC6E1;
+    padding:10px;
+    border-radius: 5px;
+    font-size:14px;
+    color:white;
 }
 /**************************************/
 @media(min-width:1024px)and (max-width:1600px){
